@@ -201,9 +201,9 @@ static void show_welcome_text(SimplyData *data) {
     return;
   }
 
-  simply_set_text(data, &data->title_text, "Simply.js");
-  simply_set_text(data, &data->subtitle_text, "Welcome");
-  simply_set_text(data, &data->body_text, "Simply.js allows you to push interactive text to your Pebble with just JavaScript!");
+  simply_set_text(data, &data->title_text, "");
+  simply_set_text(data, &data->subtitle_text, "");
+  simply_set_text(data, &data->body_text, "");
 }
 
 static void window_load(Window *window) {
